@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+  
+  body {
+      /* background-image: url('images/grid-wallpaper.jpg');
+      background-size: cover; */
+      font-family: "Helvetica Neue";
+      background-size: 90px 105px;
+      background-image:
+        linear-gradient(to right, #F5F5F5 1px, transparent 1px),
+        linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
+  }
+
+
+  /* BOOTSTRAP NAV */
+/* code referenced from: https://codeconvey.com/navbar-transparent-to-solid-on-scroll/ */
+.navbar{
+    /* position: fixed; */
+    transition: 1s;
+    margin: 0px 10px 0px 30px;
+  }
+  
+  .nav{
+    font-family: "Helvetica Neue";
+    /* padding: 10px 20px; */
+  }
+  
+  .nav li{
+    padding: 0px 20px 0px 0px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav li a {
+    color: #363636;
+  }
+  
+  .navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .nav li:after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #CAE234;
+    font-weight: 700;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+    }
+  
+    .nav li:hover:after{
+    transform: scaleX(1);
+    }
+  
+    .active {
+      font-weight: 700;
+      text-decoration: line-through;
+      text-decoration-thickness: 2px;
+      text-decoration-color: #CAE234;
+    }
+  
+        body::-webkit-scrollbar-track{
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      }
+  
+    body::-webkit-scrollbar {
+      width: 14px;
+    }
+  
+    .icon-bar{
+      background-color: #000;
+    }
+    
+    body::-webkit-scrollbar-thumb{
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+      background:  rgba(255, 255, 255, 0.75);
+    }
+  
+    @media(max-width: 720px){
+      body{
+        background-size: 100% 100%;
+      }
+      .navbar-collapse{
+      background: rgba(255, 255, 255, 0.75);
+      }
+    }
+
+
+    /* TEXT STYLING */
+    p {
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 200;
+        /* font-size: 18px; */
+        line-height: 26px;
+        background-color: white;
+        color: #777777;
+        /* margin-right: 20px; */
+      }
+
+    h2 {
+        font-family: "Helvetica Neue";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 49px;
+        line-height: 58px;
+        letter-spacing: -0.055em;
+        color: #575757;
+        background-color: white;
+        margin-bottom: 56px;
+      }
+
+      h4 {
+        font-size: 2em;
+        color:#916CF6;
+        font-family: "Helvetica Neue";
+        background-color: white;
+      }
+  
+      h5 {
+          background-color: white;
+      }
+
+      h6 {
+        /* font-size: 1.25em; */
+        color:#916CF6;
+        background-color: white;
+      }
+
+      /* FOOTER */
+      footer {
+        background-color: white;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 70px;
+      }
+
+      footer p {
+        font-size: 16px;
+      }
+
+      /* ARCHITECTURE PAGE */
+      .flipbook {
+        text-align: center;
+        /* margin-top: 3%; */
+
+      }
+
+      .flipbook-div {
+        margin-top: 100px;
+      }
+
+      .thesis-div {
+          margin-top: 100px;
+      }
+
+      .gif {
+          width: 100%;
+      }
+
+      .gif-div {
+          margin-top: 90px;
+      }
+
+      .architecture-icons {
+          width: 10%;
+      }
+
+      .architecture-icon-headings {
+          color: #363636;
+      }
+
+      .arch-icons-div {
+          margin-top: 65px;
+      }
+
+      .architecture-landing-card {
+          margin-top: 150px;
+      }
+
+    
+
