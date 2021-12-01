@@ -122,11 +122,12 @@
         background: white;
         border: 1px solid #EBEBEB;
         margin-left: 15%;
-        margin-top: 10%;
+        margin-top: 9%;
         height: auto;
         padding-top: 40%;
         width: 40%;
         border-radius: 50%;
+        animation: 2s ease-out 0s 1 slide-in-fwd-center;
         /* display: relative; */
     }
     
@@ -214,10 +215,10 @@
 
     .arrow span{
         display: block;
-        width: 20px;
-        height: 20px;
-        border-bottom: 3px solid #916CF6;
-        border-right: 3px solid #916CF6;
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid #916CF6;
+        border-right: 2px solid #916CF6;
         transform: rotate(45deg);
         margin: -10px;
         animation: animate 2s 1;
@@ -494,9 +495,9 @@
     animation: 1s ease-out 0s 1 fade-in;
   }
   
-  .circle {
+  /* .circle {
     animation: 2s ease-out 0s 1 slide-in-fwd-center;
-  }
+  } */
   
   /* ABOUT */
 

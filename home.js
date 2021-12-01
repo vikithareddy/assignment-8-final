@@ -15,6 +15,6 @@ function showOneCademy() {
 }
 
 function showSpin() {
-    document.getElementById("onecademy").style.display = "none";
     document.getElementById("spin").style.display = "";
+    document.getElementById("onecademy").style.display = "none";
 }
