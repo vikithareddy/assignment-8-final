@@ -26,4 +26,17 @@ $(window).scroll(function(e) {
 
 });
 
+$(function(){
+    $(window).bind("resize",function(){
+        console.log($(this).width())
+        if($(this).width() <800){
+        $('.desc-timeline-div').removeClass('flex-nowrap')
+        $('.remove-offset').removeClass('offset-2')
+        } else {
+        $('.desc-timeline-div').addClass('flex-nowrap')
+        $('.remove-offset').addClass('offset-2')
+        }
+    })
+    })
+
 

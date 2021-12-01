@@ -369,7 +369,7 @@
 
       @media only screen and (max-width: 775px) {
         #architecture-nav {
-          margin-top: 8%;
+          margin-top: 10%;
         }
 
         .architecture-icons {
@@ -514,6 +514,7 @@
 
   .potrait {
     transform: rotate(5deg);
+    max-width: 80%;
   }
 
   .about-div-one {
@@ -667,7 +668,7 @@
 }
 
 .flag {
-	background: rgb(177, 17, 17);
+	background: transparent;
 	z-index: 15;
 }
 
@@ -681,26 +682,12 @@
 	width: 12px;
 	height: 12px;
 	margin-left: -9px;
-	background: rgb(190, 14, 14);
+	background: transparent;
 	border-radius: 10px;
 	border: 4px solid #CAE234;
 	z-index: 10;
 }
 
-
-.direction-r .flag:after {
-	content: "";
-	/* position: absolute;
-	left: 50%; */
-	top: -8px;
-	height: 0;
-	width: 0;
-	margin-left: -8px;
-	border: solid transparent;
-	border-bottom-color: rgb(45, 175, 73);
-	border-width: 8px;
-	pointer-events: none;
-}
 
 .time-wrapper {
 	display: block;
