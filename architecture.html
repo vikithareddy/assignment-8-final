@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav">
               <li class="nav-item">
-                <a class="nav-link"  href="index.html#work">work</a>
+                <a class="nav-link" href="index.html#work">work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="architecture.html">architecture</a>
@@ -39,34 +39,50 @@
         </div>
       </nav>
 
+      <nav id="architecture-nav" class="navbar arch-nav fixed-top  px-3">
+        <ul class="nav nav-pills ms-auto">
+          <li class="nav-item arch-nav-link p-0">
+            <a class="nav-link arch-nav-a" href="#flipbook">portfolio</a>
+          </li>
+          <li class="nav-item arch-nav-link p-0">
+            <a class="nav-link arch-nav-a" href="#arch-thesis">thesis</a>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <!-- <h5 id="scrollspyHeading1">First heading</h5>
+        <h5 id="scrollspyHeading2">Second heading</h5> -->
+      </div>
+
+      
 
       <!-- LANDING CARD -->
-      <div class = "container d-flex justify-content-center">
+      <div id = "trial" class = "scale-up-center container d-flex justify-content-center">
         <div class="card mb-3 architecture-landing-card" style="width: 100%;" >
             <div class="row g-0">
-              <div class="col-md-4">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div class="col-md-4 align-self-center">
+                <div class="card-body px-5">
+                  <h5 class="title-card fs-5">Card title</h5>
+                  <p class="body-card fw-normal fs-4">This is a wider card with supporting text below as a</p>
+                  <p class="card-text"><small class="text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</small></p>
                 </div>
               </div>
               <div class="col-md-8">
-                <img src="images/spin-mockup.png" class="img-fluid rounded-start" alt="...">
+                <img src="images/GalleryRender.jpg" class="img-fluid rounded-start" alt="...">
               </div>
             </div>
           </div>
       </div>
 
       <!-- FLIPBOOK DIV -->
-      <div class = "container flipbook-div">
+      <div id = "flipbook" class = "container flipbook-div">
         <div class = "row">
             <div class = "col" style = "margin-bottom: 50px;">
                 <h6 class = "fs-5 my-4">first place winner</h6>
                 <h5 class = "fs-2">leonard b. willeke portfolio competition</h5>
             </div>
             <div class = "row justify-content-center">
-                <div class = "col">
+                <div class = "col px-md-5">
                     <div class = "flipbook">
                         <a href="https://online.flippingbook.com/view/361119115/" class="fbo-embed" 
                         data-fbo-id="361119115" data-fbo-ratio="16:9" data-fbo-lightbox="yes" data-fbo-width="100%" 
@@ -79,7 +95,7 @@
     </div>
 
     <!-- THESIS PROJECT DIV -->
-    <div class = "container thesis-div px-4">
+    <div id = "arch-thesis" class = "container thesis-div px-4">
         <!-- row 1 -->
         <div class = "row">
             <div class = "col-7">
@@ -101,7 +117,7 @@
                       sollicitudin vel mauris.</p>
             </div>
             <div class = "col-6 px-md-5">
-                <img class = "gif" src="https://static.wixstatic.com/media/80baa6_a12f2a7fb70c45c28a2b384b3ba36ae3~mv2.gif" alt="">
+                <img id = "gif" class = "gif" src="https://static.wixstatic.com/media/80baa6_a12f2a7fb70c45c28a2b384b3ba36ae3~mv2.gif" alt="">
             </div>
         </div>
         <!-- row 3 -->
