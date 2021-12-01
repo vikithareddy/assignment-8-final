@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Hover Animations Stylesheet -->
     <link rel ="stylesheet" href = "hover.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
   </head>
 
   <body id= "home">
@@ -97,15 +98,26 @@
       </div>
 
       <!-- PROJECTS DIV -->
-      <div class = "fluid-container vertical-center" id = "work">
-          <div class = "row project-preview-header align-self-center"> 
-            <div class = "col-3 px-md-5 align-self-center"><a href = "#work" onClick = "showOneCademy()" class = "hvr-grow fw-bold">
-              1cademy</a></div>
-            <div class = "col-3 px-md-5 align-self-center"><a href = "#work" onClick = "showSpin()" class = "hvr-grow fw-bold">
-              spin</a></div>
-            <div class = "col-3 px-md-5"><a href = "#gadgets" disabled>gadgets</a></div>
-            <div class = "col-3 px-md-5"><a href = "#pennmac" disabled>pennmac</a></div>
+      <div class = "fluid-container" id = "work">
+          <div class = "row project-preview-header justify-content-center"> 
+            <div class = "col-3 px-md-5">
+              <a href = "#work" onClick = "showOneCademy()" class = "hvr-grow fw-bold">
+                <h5 class = "fs-3 mx-5 project-names projects-active">1cademy</h5>
+              </a>
+            </div>
+            <div class = "col-3 px-md-5"><a href = "#work" onClick = "showSpin()" class = "hvr-grow fw-bold">
+              <h5 class = "fs-3 project-names projects-active">spin dashboard</h5>
+            </a>
           </div>
+            <div class = "col-3 px-md-5"><a href = "#gadgets" disabled>
+              <h5 class = "fs-3 project-names fw-normal">gadgets</h5>
+            </a>
+          </div>
+            <div class = "col-3 px-md-5"><a href = "#pennmac" disabled>
+              <h5 class = "fs-3 project-names fw-normal">pennmac</h5>
+            </a>
+          </div>
+        </div>
           <!-- 1cademy project -->
           <div class = "row project-preview" id = "onecademy">
             <div class = "align-self-center">
@@ -114,6 +126,9 @@
               <p class="body-card fw-light fs-5">1cademy is an online learning and research community created by a 
                 professor at the University of Michigan School of Information. The Pracrtice Tool feature helps 
                 students learn effectively through gamified quizzes. </p>
+              <a href="#" class="hvr-forward view-project-button">
+                  view project &#8594;
+              </a>
             </div>
             <div>
               <img src="images/1cademy-mockup.jpg" alt="Project Mockup of 1cademy Project" class ="mockup">
@@ -126,6 +141,9 @@
               <h6 class = "fs-5 my-4">October 2021 - November 2021</h6>
               <p class="body-card fw-light fs-5">The redesigned Spin Scooters dashbaord is aimed 
                 at bridging the communication gap between the company’s data analysts and gig workers. </p>
+              <a href="#" class="hvr-forward view-project-button">
+                  view project &#8594;
+              </a>
             </div>
             <div>
               <img src="images/spin-mockup.png" alt="Project Mockup of 1cademy Project" class ="mockup">
