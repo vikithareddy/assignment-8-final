@@ -99,21 +99,34 @@
       <!-- PROJECTS DIV -->
       <div class = "fluid-container vertical-center" id = "work">
           <div class = "row project-preview-header align-self-center"> 
-            <div class = "col-3 px-md-5 align-self-center"><a href = #1cademy>1cademy</a></div>
-            <div class = "col-3 px-md-5 align-self-center"><a href = #spin>spin</a></div>
+            <div class = "col-3 px-md-5 align-self-center"><a href = #1cademy onClick = "showOneCademy()">1cademy</a></div>
+            <div class = "col-3 px-md-5 align-self-center"><a href = #spin onClick = "showSpin()">spin</a></div>
             <div class = "col-3 px-md-5"><a href = #gadgets>gadgets</a></div>
             <div class = "col-3 px-md-5"><a href = #pennmac>pennmac</a></div>
           </div>
-          <div class = "row project-preview">
-            <div >
+          <!-- 1cademy project -->
+          <div class = "row project-preview" id = "onecademy">
+            <div>
               <h5 class = "fs-2">Effective learning using gamification </h5>
               <h6 class = "fs-5 my-4">May 2021 - August 2021</h6>
               <p class="body-card fw-light fs-5">1cademy is an online learning and research community created by a 
                 professor at the University of Michigan School of Information. The Pracrtice Tool feature helps 
                 students learn effectively through gamified quizzes. </p>
             </div>
-            <div >
-              <img src="images/1cademy-mockup.jpg" alt="Project Mockup of 1cademy Project">
+            <div>
+              <img src="images/1cademy-mockup.jpg" alt="Project Mockup of 1cademy Project" class ="mockup">
+            </div>
+          </div>
+          <!-- spin project -->
+          <div class = "row project-preview" id = "spin" style = "display:none;">
+            <div>
+              <h5 class = "fs-2">Enhacing communication with data-driven displays</h5>
+              <h6 class = "fs-5 my-4">October 2021 - November 2021</h6>
+              <p class="body-card fw-light fs-5">The redesigned Spin Scooters dashbaord is aimed 
+                at bridging the communication gap between the company’s data analysts and gig workers. </p>
+            </div>
+            <div>
+              <img src="images/spin-mockup.png" alt="Project Mockup of 1cademy Project" class ="mockup">
             </div>
           </div>
       </div>
