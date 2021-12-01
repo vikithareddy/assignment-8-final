@@ -329,6 +329,7 @@
 
       .architecture-icons {
           width: 20%;
+          max-width: 100px;
       }
 
       .architecture-icon-headings {
@@ -364,6 +365,16 @@
           margin-right: 20px;
           text-decoration: underline;
           text-decoration-color: #916CF6;
+      }
+
+      @media only screen and (max-width: 775px) {
+        #architecture-nav {
+          margin-top: 8%;
+        }
+
+        .architecture-icons {
+          width: 10%;
+        }
       }
     
 
