@@ -367,9 +367,11 @@
           text-decoration-color: #916CF6;
       }
 
-      /* @media only screen and (max-width: 1200px) {
-    
-      } */
+      @media only screen and (max-width: 1000px) {
+        #architecture-nav {
+          /* margin-top: 200px; */
+      }
+      }
 
       /* @media only screen and (min-width: 700px) and (max-width: 900px){
        

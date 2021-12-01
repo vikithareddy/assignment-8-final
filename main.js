@@ -26,17 +26,28 @@ $(window).scroll(function(e) {
 
 });
 
+//change layout of items based on screen resizing 
 $(function(){
     $(window).bind("resize",function(){
-        console.log($(this).width())
+        console.log($(this).width());
         if($(this).width() <800){
-        $('.desc-timeline-div').removeClass('flex-nowrap')
-        $('.remove-offset').removeClass('offset-2')
+        $('.desc-timeline-div').removeClass('flex-nowrap');
+        $('.remove-offset').removeClass('offset-2');
         } else {
-        $('.desc-timeline-div').addClass('flex-nowrap')
-        $('.remove-offset').addClass('offset-2')
-        }
-    })
-    })
+        $('.desc-timeline-div').addClass('flex-nowrap');
+        $('.remove-offset').addClass('offset-2');
+        };
+    });
+    });
+
+
+    var hamburger = document.getElementById("navbar-toggler");
+    //set architecture projects nav bar display off if the hamburger menu is expanded
+    hamburger.onclick = function () {
+      console.log('Click just happened')
+      document.getElementById("architecture-nav").style.display = "none";
+    }
+
+
 
 
