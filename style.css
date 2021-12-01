@@ -353,7 +353,7 @@
       }
 
       #architecture-nav {
-          margin-top: 5%;
+          margin-top: 90px;
       }
 
       .arch-nav-link {
@@ -367,15 +367,13 @@
           text-decoration-color: #916CF6;
       }
 
-      @media only screen and (max-width: 775px) {
-        #architecture-nav {
-          margin-top: 10%;
-        }
+      /* @media only screen and (max-width: 1200px) {
+    
+      } */
 
-        .architecture-icons {
-          width: 10%;
-        }
-      }
+      /* @media only screen and (min-width: 700px) and (max-width: 900px){
+       
+        } */
     
 
       /* ANIMATIONS */
