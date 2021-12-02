@@ -441,7 +441,13 @@
         .project-preview-header {
           display: none;
         }
+        .vertical-text {
+          display: none;
+        }
 
+        #work {
+          margin-top: 30px;
+        }
         }
     
 
