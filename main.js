@@ -34,12 +34,17 @@ $(function(){
         $('.desc-timeline-div').removeClass('flex-nowrap');
         $('.remove-offset').removeClass('offset-2');
         $('#spin').removeClass('flex-nowrap');
+        $('#spin').show();
         } else {
         $('.desc-timeline-div').addClass('flex-nowrap');
         $('.remove-offset').addClass('offset-2');
+        $('#spin').removeAttr("style").hide();
         };
     });
     });
+
+
+    
 
 
     var hamburger = document.getElementById("navbar-toggler");
