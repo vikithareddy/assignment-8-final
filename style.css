@@ -153,7 +153,12 @@
         background-color: #CAE234;
         padding: 0px 5px 1px 5px;
         border-radius: 2px;
+        font-size: 1.5vw;
       }
+
+    .hero-paragraph-text {
+      font-size: 1vw;
+    }
 
       /* .name:hover {
         font-size: 7vw;
@@ -387,9 +392,14 @@
       }
 
       @media only screen and (max-width: 1000px) {
-        #architecture-nav {
-          /* margin-top: 200px; */
-      }
+        .hero-paragraph-text {
+          font-size: 2vw;
+          line-height: 15px;
+        }
+
+        .name {
+          font-size:4vw;
+        }
       }
 
       /* @media only screen and (min-width: 700px) and (max-width: 900px){
