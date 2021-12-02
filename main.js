@@ -33,6 +33,7 @@ $(function(){
         if($(this).width() <800){
         $('.desc-timeline-div').removeClass('flex-nowrap');
         $('.remove-offset').removeClass('offset-2');
+        $('#spin').removeClass('flex-nowrap');
         } else {
         $('.desc-timeline-div').addClass('flex-nowrap');
         $('.remove-offset').addClass('offset-2');
