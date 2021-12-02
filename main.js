@@ -35,10 +35,12 @@ $(function(){
         $('.remove-offset').removeClass('offset-2');
         $('#spin').removeClass('flex-nowrap');
         $('#spin').show();
+        $('#rebox').show();
         } else {
         $('.desc-timeline-div').addClass('flex-nowrap');
         $('.remove-offset').addClass('offset-2');
         $('#spin').removeAttr("style").hide();
+        $('#rebox').removeAttr("style").hide();
         };
     });
     });
