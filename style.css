@@ -412,6 +412,29 @@
         .project-names {
           font-size: 10px;
         }
+
+        body {
+          font-family: "Helvetica Neue";
+          background-size: 45px 55px;
+          background-image:
+            linear-gradient(to right, #F5F5F5 1px, transparent 1px),
+            linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
+            overflow-x: hidden;
+      }
+
+         /* circle */
+    .circle {
+        background: white;
+        border: 1px solid #EBEBEB;
+        margin-left: 15%;
+        margin-top: 9%;
+        height: auto;
+        padding-top: 40%;
+        width: 40%;
+        border-radius: 50%;
+        animation: 2s ease-out 0s 1 slide-in-fwd-center;
+        /* display: relative; */
+    }
       }
 
       @media only screen and (min-width: 0px) and (max-width: 700px){
