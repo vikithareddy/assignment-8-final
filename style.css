@@ -757,4 +757,12 @@
   }
 }
 
+/* UCRE */
+
+.accordion-button:focus, .accordion-button:active, .accordion-button:hover {
+  background-color: #f6fae2;
+  font-weight: bold;
+  color:rgba(37, 37, 37, 0.8);
+}
+
 
