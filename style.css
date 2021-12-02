@@ -153,7 +153,7 @@
         background-color: #CAE234;
         padding: 0px 5px 1px 5px;
         border-radius: 2px;
-        font-size: 1.5vw;
+        font-size: 1vw;
       }
 
     .hero-paragraph-text {
@@ -196,14 +196,13 @@
 
       .project-preview-header a {
         text-decoration: none;
-        font-size: 25px;
         font-family: "Helvetica Neue";
         color: #BDBDBC;
       }
 
       .project-preview {
-        display: grid;
-        grid-template-columns: 40% 50%;
+        /* display: grid;
+        grid-template-columns: 40% 50%; */
         width: 90%;
         margin: auto;
         justify-content: center;
@@ -393,18 +392,29 @@
 
       @media only screen and (max-width: 1000px) {
         .hero-paragraph-text {
-          font-size: 2vw;
+          font-size: 1.5vw;
           line-height: 15px;
         }
 
         .name {
           font-size:4vw;
         }
+
+        #text-under-name {
+          margin-top: -40px;
+        }
+
+        .contact-links {
+          font-size: 1.5vw;
+          margin-left: 1%;
+        }
       }
 
-      /* @media only screen and (min-width: 700px) and (max-width: 900px){
-       
-        } */
+      @media only screen and (min-width: 0px) and (max-width: 500px){
+        .project-preview-header {
+          display: none;
+        }
+        }
     
 
       /* ANIMATIONS */

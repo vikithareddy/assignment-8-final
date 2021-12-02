@@ -21,3 +21,4 @@ function showSpin() {
     document.getElementById("spin").style.display = "";
     document.getElementById("onecademy").style.display = "none";
 }
+
