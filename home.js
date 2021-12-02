@@ -14,11 +14,17 @@ circle.addEventListener("animationend", circleOutline);
 function showOneCademy() {
     document.getElementById("onecademy").style.display = "";
     document.getElementById("spin").style.display = "none";
+    document.getElementsByClassName("project-names")[0].style.color = "#37303B";
+    document.getElementsByClassName("project-names")[1].style.color = "#adadad";
 }
 
 //show spin project when the project title is clicked and hide 1cademy project
 function showSpin() {
     document.getElementById("spin").style.display = "";
     document.getElementById("onecademy").style.display = "none";
+    document.getElementsByClassName("project-names")[1].style.color = "#37303B";
+    document.getElementsByClassName("project-names")[0].style.color = "#adadad";
+    // document.getElementsByClassName("project-preview-header").style.color = "transparent";
+
 }
 

@@ -206,6 +206,7 @@
         width: 90%;
         margin: auto;
         justify-content: center;
+        background-color: white;
       }
 
       .mockup {
@@ -449,8 +450,8 @@
           display: none;
         }
 
-        #work {
-          margin-top: 30px;
+        .project-preview {
+          margin-top: 50px;
         }
         }
     
