@@ -35,6 +35,7 @@ $(function(){
         $('.remove-offset').removeClass('offset-2');
         $('#spin').removeClass('flex-nowrap');
         $('#spin').show();
+        $('#rebox').removeClass('flex-nowrap');
         $('#rebox').show();
         } else {
         $('.desc-timeline-div').addClass('flex-nowrap');
