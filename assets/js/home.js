@@ -41,18 +41,13 @@ function showRebox() {
     document.getElementsByClassName("project-names")[1].style.color = "#adadad";
 }
 
-
+// set interval for preloader animation
 const preloader = document.querySelector('.preloader');
-
-// const fadeEffect = setInterval(() => {
-//     $('.preloader').addClass("fade-in");
-//     $('.preloader').hide();
-// }, 1000);
 
 const fadeEffect = setInterval(function(){
     $('.preloader').addClass("fade-in");
     $('.preloader').hide();
-}, 1000);
+}, 800);
 
 window.addEventListener('load', fadeEffect);
 
