@@ -1,17 +1,4 @@
-// window.onscroll = function() {scrollFunction()};
- 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     document.getElementById("navbar").style.background = "rgba(255, 255, 255, 0.75)";
-//     // document.getElementById("line-change").style.display = "none";
-//     // document.getElementById("text-under-name").style.display = "inline-block";
-//     $('.navbar').addClass("navbar-hide");
-//   } else {
-   
-//     document.getElementById("navbar").style.background = "none";
-//   }
-// }
-
+//function to handle responsiveness and animations on scroll
 $(window).scroll(function(e) {
 
     // add/remove class to navbar when scrolling to hide/show

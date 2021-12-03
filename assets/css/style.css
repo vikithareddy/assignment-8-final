@@ -143,7 +143,6 @@
         margin-top:-70%;
         margin-left: 23%;
         max-height:100px;
-        /* background-color: white; */
       }
     
       #text-under-name {
@@ -201,8 +200,6 @@
       }
 
       .project-preview {
-        /* display: grid;
-        grid-template-columns: 40% 50%; */
         width: 90%;
         margin: auto;
         justify-content: center;
@@ -279,11 +276,9 @@
         font-family: Helvetica Neue;
         font-style: normal;
         font-weight: 200;
-        /* font-size: 18px; */
         line-height: 26px;
         background-color: white;
         color: #777777;
-        /* margin-right: 20px; */
       }
 
     h2 {
@@ -310,7 +305,6 @@
       }
 
       h6 {
-        /* font-size: 1.25em; */
         color:#916CF6;
         background-color: white;
       }
@@ -331,8 +325,6 @@
       /* ARCHITECTURE PAGE */
       .flipbook {
         text-align: center;
-        /* margin-top: 3%; */
-
       }
 
       .flipbook-div {
@@ -408,11 +400,6 @@
         #text-under-name {
           margin-top: -40px;
         }
-
-        /* .contact-links {
-          font-size: 1.5vw;
-          margin-left: 1%;
-        } */
 
         .project-names {
           font-size: 10px;
@@ -588,9 +575,6 @@
     animation: 1s ease-out 0s 1 fade-in;
   }
   
-  /* .circle {
-    animation: 2s ease-out 0s 1 slide-in-fwd-center;
-  } */
   
   /* ABOUT */
 
