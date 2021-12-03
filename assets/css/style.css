@@ -238,8 +238,8 @@
         display: block;
         width: 10px;
         height: 10px;
-        border-bottom: 2px solid #916CF6;
-        border-right: 2px solid #916CF6;
+        border-bottom: 2px solid #7E61CC;
+        border-right: 2px solid #7E61CC;
         transform: rotate(45deg);
         margin: -10px;
         animation: animate 2s 1;
@@ -278,7 +278,7 @@
         font-weight: 200;
         line-height: 26px;
         background-color: white;
-        color: #777777;
+        color: #707070;
       }
 
     h2 {
@@ -295,7 +295,7 @@
 
       h4 {
         font-size: 2em;
-        color:#916CF6;
+        color:#7E61CC;
         font-family: "Helvetica Neue";
         background-color: white;
       }
@@ -305,7 +305,7 @@
       }
 
       h6 {
-        color:#916CF6;
+        color:#7E61CC;
         background-color: white;
       }
 
@@ -384,7 +384,7 @@
       .arch-nav-a {
           margin-right: 20px;
           text-decoration: underline;
-          text-decoration-color: #916CF6;
+          text-decoration-color: #7E61CC;
       }
 
       @media only screen and (max-width: 1000px) {
@@ -598,7 +598,7 @@
 }
 
 .contact-links {
-  color:#916CF6;
+  color:#7E61CC;
 }
   
 /* code referenced from https://codepen.io/NilsWe/pen/FemfK */
