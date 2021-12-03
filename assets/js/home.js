@@ -39,6 +39,20 @@ function showRebox() {
     document.getElementsByClassName("project-names")[2].style.color = "#37303B";
     document.getElementsByClassName("project-names")[0].style.color = "#adadad";
     document.getElementsByClassName("project-names")[1].style.color = "#adadad";
-    // document.getElementsByClassName("project-preview-header").style.color = "transparent";
 }
+
+
+const preloader = document.querySelector('.preloader');
+
+// const fadeEffect = setInterval(() => {
+//     $('.preloader').addClass("fade-in");
+//     $('.preloader').hide();
+// }, 1000);
+
+const fadeEffect = setInterval(function(){
+    $('.preloader').addClass("fade-in");
+    $('.preloader').hide();
+}, 1000);
+
+window.addEventListener('load', fadeEffect);
 
